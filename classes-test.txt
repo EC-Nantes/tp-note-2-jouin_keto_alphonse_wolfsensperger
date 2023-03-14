@@ -1,0 +1,15 @@
+En C++ orienté objet, il est possible de décomposer le jeu de La Course des Tortues en plusieurs classes. Voici une proposition de classes qui pourraient être utilisées :
+
+Carte : cette classe représenterait une carte du jeu, avec ses différents effets (avancer/reculer une tortue, déplacer une pile de tortues, etc.) Elle pourrait contenir des fonctions pour exécuter l'effet de la carte et pour l'afficher.
+
+PileDeCartes : cette classe représenterait une pile de cartes, qui peut être mélangée et piochée. Elle pourrait contenir des fonctions pour ajouter des cartes à la pile, la mélanger, la piocher et la vider.
+
+Tortue : cette classe représenterait une tortue du jeu, avec sa couleur et sa position sur le plateau. Elle pourrait contenir des fonctions pour avancer/reculer la tortue, pour déplacer une pile de tortues, pour afficher la tortue, etc.
+
+Plateau : cette classe représenterait le plateau de jeu, avec ses 10 cases et les tortues qui y sont placées. Elle pourrait contenir des fonctions pour afficher le plateau, pour déplacer les tortues, pour déterminer si une tortue a atteint l'arrivée, etc.
+
+Joueur : cette classe représenterait un joueur du jeu, avec sa tuile tortue et sa main de cartes. Elle pourrait contenir des fonctions pour piocher une carte, jouer une carte, etc.
+
+Partie : cette classe représenterait une partie de jeu, avec plusieurs joueurs et un plateau. Elle pourrait contenir des fonctions pour initialiser la partie, pour jouer un tour, pour déterminer le gagnant, etc.
+
+Bien entendu, il est possible d'ajouter d'autres classes ou de les organiser différemment selon les besoins du programmeur. Cependant, cette proposition de classes devrait permettre de représenter tous les éléments importants du jeu de La Course des Tortues en C++ orienté objet.
